@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css';
 
 const images = [
-  "https://images.pexels.com/photos/3836292/pexels-photo-3836292.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+  "https://pbs.twimg.com/profile_images/928213517076803584/AMjTNO3t_400x400.jpg",
   "https://images.pexels.com/photos/2792157/pexels-photo-2792157.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   "https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -34,7 +34,7 @@ const preSlide = ()=>{
           (image, index) =>
             current === index && (
               <div key={image} className="slide">
-                <img src={image} alt="images" />
+                <img src={image} alt="images" width="300" height="300"/>
               </div>
             )
         )}
