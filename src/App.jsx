@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css';
 
 const images = [
-  "https://pbs.twimg.com/profile_images/928213517076803584/AMjTNO3t_400x400.jpg",
+  "https://www.rd.com/wp-content/uploads/2019/01/shutterstock_115329475.jpg?resize=768,512",
   "https://images.pexels.com/photos/2792157/pexels-photo-2792157.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   "https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
